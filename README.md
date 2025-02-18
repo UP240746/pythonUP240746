@@ -1,2 +1,6 @@
-# python
-anaya me dijo que pusiera que este repositorio era para su clase 
+# METODOLOGIA DE LA PROGRAMACION 
+## UNIVERSIDAD POLITECNICA DE AGUASCALIENTES 
+# MTR01A 
+JANIZE JORDAN MARQUEZ BECERRA 
+
+UP240746
