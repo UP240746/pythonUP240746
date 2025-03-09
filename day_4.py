@@ -24,13 +24,32 @@ empresa= "Codificar para todos"
 print("variable: ", empresa)
 
 #ejercicio 4
-print("Ejercicio 4") 
+#irmprime la variable empresa utulizndo print 
+print("Ejercicio 4")
+print("imprrime la variable:", empresa) 
+
 #ejercicio 5
+#imprime la  longitud de la cadena de la empresa ulilizando el metodo len() y print()
+print("Ejercicio 5")
+lene= len(empresa)
+print(lene)
+
 #ejercicio 6
-#ejercicio 7
-#ejercicio 8 
-#ejercicio 9 
-#ejercicio 10 
-#ejercicio 11
-#ejercicio 12
-#
+#cambiar caracteres a mayusculas utilzando el metodo upper
+print("Ejercicio 6")
+caracteres= "Este texto estara en mayusculas" .upper()
+print(caracteres )
+
+#ejercicio7 
+#cambiar caracteres a minusculas utilizando el metodo lower 
+print("Ejercicio 7")
+caracteres= "ESTE TEXTO ESTARA EN MINUSCULAS" .lower()
+print(caracteres)
+
+#Ejercicio8
+#Formatear el valor de la cadena 
+print("Ejercicio 8 ")
+
+
+
+
