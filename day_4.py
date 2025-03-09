@@ -49,6 +49,24 @@ print(caracteres)
 #Ejercicio8
 #Formatear el valor de la cadena 
 print("Ejercicio 8 ")
+print(empresa .capitalize() )
+print(empresa .title())
+print(empresa .swapcase())
+
+#ejercicio9
+#corta la primera palabra de la cadena 
+print("Programa 9")
+cortar= empresa[0:9]
+print(cortar)
+
+#ejercicio10
+#comprobar si la cadena empresa contiene un codificar  
+print("Programa 10 ") 
+print(empresa.find("Codificar"))
+subcadena= "Codificar"
+print(empresa.index(subcadena))
+print("La cadena si contiene  ¨Codificar¨ en el indice 0 ")
+
 
 
 
