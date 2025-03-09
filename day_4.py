@@ -67,7 +67,57 @@ subcadena= "Codificar"
 print(empresa.index(subcadena))
 print("La cadena si contiene  ¨Codificar¨ en el indice 0 ")
 
+#ejercicio 11
+#Sustituye la palabra Codificra por python en la cadena 
+print("Ejercicio 11")
+print(empresa.replace("Codificar",  "Python"))
 
+#Ejercicio12
+#Camnie el Python para todos a Python for everyone
+print("Ejercicio 12 ")
+print(empresa.replace("Codificar para todos", "Python for Everyone"))
 
+#Ejercicio13
+#Divide la cadena utlizando el espacio como separardor split
+print("Ejercicio 13")
+print(empresa.split())
 
+#Ejercicio14
+#Dividir la cadena con comas
+print("Ejercio14")
+aplicaciones= "Facebook,Google, Microsoft, Apple, IBM, Oracle, Amazon"
+print(aplicaciones.split())
 
+#Ejercicio15
+#Identificar el  caracter situado en el indice 0 en la cadeana 
+print("Ejercicio 15 ")
+print("El caracter identificado en el indice 0 de l cadena es: ", empresa[0])
+
+#Ejercicio16 
+#Identificar el caracter situado en el ultimo indice de la cadena
+print("Ejercicio 16")
+print("El ultimo caracter de la cadena es: ", empresa[-1])
+
+#Ejercicio17
+# Identificar el caracter que se encunetra en el indice 10 de a cadena 
+print("Ejecicio 17 ")
+print("ELcaracter sutuado en el indice 10 de la cadena es: ", empresa[10] )
+
+#Ejercicio18
+#Crea un acronimo o abreviacion para el nombre de python para todos
+print("Ejercicio 18 ")
+nombre = "Python Para Todos"
+acronimo = nombre.split()
+print(acronimo[0][0] + acronimo[1][0] + acronimo[2][0])
+
+#Ejercicio19
+#Crea un acronimo para el nombre ¨Codificar para todos¨
+print("Ejercicio 19 ")
+nombre2= "Codificar Para Todos"
+acronimo2= nombre2.split()
+print(acronimo2[0][0] + acronimo2[1][0] + acronimo2[2][0])
+
+#Ejercicio20
+#Utiliza index para determinar la posicion de la primera C en la cadena
+print("Ejercicio 20")
+print(empresa .index("C"))
