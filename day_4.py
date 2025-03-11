@@ -169,10 +169,57 @@ print(empresa.startswith("Codificar"))
 #Ejefcicio29 
 #Termina la cadena subseciente codificar 
 print("Ejercicio 30")
+print(empresa.endswith("Codificar"))
+
+#Ejercicio30 
+#Elimina los espacios izquierdos y derechos de la cadena 
+print("Ejercicio 30")
 cadena = ' Codificar Para Todos  '
 print(cadena.strip( ))
 
-#Ejercicio30 
-#
+#Ejercicio31 
+#Cual de las siguientes variables devuelve true 
+print("Ejercicio 31 ")
+var1 = "30DIASdePython"
+var2 = "treinta_dias_de_python"
+print(var1.isidentifier())
+print(var2.isidentifier())
+
+#Ejercicio32
+#Unete ea las sig librerias utilizando hash o una cadena de espacios 
+print("Ejercicio 32")
+librerias  = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+print("#".join(librerias ))
+
+#Ejercicio33
+#Utiliza la secuencia de escape para separar las sigueinte soraciones
+print("Ejercicio 33")
+print("I am enjoying this challenge.\nI just wonder what is next.")
+
+#Ejercicio 34
+#Utiliza la secuencia tab space para ecribir las sig lineas 
+print("Ejercicio 34")
+print('Name\tAge\tCountry\tCity')
+print('Asabeneh\t250\tFinland\tHelsinky')
+
+#Ejercicio 35
+#Utiliza el metodo string formating para mostrar el ejercicio 
+print("Ejercicio 35")
+radio = 10
+area = 3.14 * radius ** 2
+print("The area of a circle with radius %s is %s meters square"%(radius, area))
+
+#Ejercicio 36 
+#Utiliza el metodo string formting para el siguiente ejercicio 
+print("Ejercicio 36")
+a = 8
+b = 6
+print("{} + {} = {}".format(a, b, a + b))
+print("{} - {} = {}".format(a, b, a - b))
+print("{} * {} = {}".format(a, b, a * b))
+print("{} / {} = {:.2f}".format(a, b, a / b))
+print("{} % {} = {}".format(a, b, a % b))
+print("{} // {} = {}".format(a, b, a // b))
+print("{} ** {} = {}".format(a, b, a ** b))
 
 
