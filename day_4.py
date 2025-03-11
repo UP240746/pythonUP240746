@@ -121,3 +121,58 @@ print(acronimo2[0][0] + acronimo2[1][0] + acronimo2[2][0])
 #Utiliza index para determinar la posicion de la primera C en la cadena
 print("Ejercicio 20")
 print(empresa .index("C"))
+
+#Ejercicio 21 
+#utiliza index para determinar la aparicion de P en la cadena 
+print("Ejercicio 21") 
+print(empresa .index("p"))
+
+#Ejercicio22
+#utiiza rfind paradetrminar la posicion de la ultima l en la frase
+print("Ejercicio 22 ")
+frase= "Coding For All People"
+print(frase .rfind("l"))
+
+#Ejercicio23
+#Utiliza el indice o buscador para encontrar la aparicion de la palabra "because" en la sig oracion 
+print("Ejercicio 23")
+oracion  = 'You cannot end a sentence with because because because is a conjunction'
+oracionSplit = oracion .split( )
+print(oracionSplit.index("because"))
+
+#Ejecicio24
+#Usa rindex para incontrar la posicion de la aparicionde la palabra "because"en la oracion 
+print("Ejercicio 24 ")
+print(oracion.rindex("because"))
+
+#Ejercicio25 
+#Corta la frase "because because because" en la sig oracion
+print("Ejercicio 25")
+print(oracion[0:30] + oracion[54:71])
+
+#Ejercicio26
+#Encuentre la posicion en la primera aparicion de la palabra "because"
+print(" Ejercico 26")
+print(oracionSplit.index("because"))
+
+#Ejercicio 27
+#Corta la frase "because because because" en la sig oracion 
+print("Ejeficio 27")
+print(oracion[0:30] + oracion[54:71])
+
+#Ejercicio28
+#Empieza Codifi car para todos con una sub cadena codificar
+print("Ejercicio 28")
+print("Ejercicio 28")
+print(empresa.startswith("Codificar"))
+
+#Ejefcicio29 
+#Termina la cadena subseciente codificar 
+print("Ejercicio 30")
+cadena = ' Codificar Para Todos  '
+print(cadena.strip( ))
+
+#Ejercicio30 
+#
+
+
