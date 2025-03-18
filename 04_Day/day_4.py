@@ -206,8 +206,8 @@ print('Asabeneh\t250\tFinland\tHelsinky')
 #Utiliza el metodo string formating para mostrar el ejercicio 
 print("Ejercicio 35")
 radio = 10
-area = 3.14 * radius ** 2
-print("The area of a circle with radius %s is %s meters square"%(radius, area))
+area = 3.14 * radio ** 2
+print("The area of a circle with radius %s is %s meters square"%(radio, area))
 
 #Ejercicio 36 
 #Utiliza el metodo string formting para el siguiente ejercicio 
