@@ -37,3 +37,40 @@ while a<= 7:
     print("#"*a)
     a=a+1    
 
+#Ejercicio 4 p1 
+#Utiliza bucles anindados para crar lo que te piden 
+print("Ejercicio 4 p1")
+b= 8
+c= 8
+for j in range(b):
+    for i in range(c):
+        print("#", end="")
+        print()
+        
+#Ejercicio 5 p1
+#Imprime el siguiente patron
+print("Ejercicio 5 p1")
+for d in range(11): 
+    print(d,"x", d, "=", d * d)
+    
+#Ejercicio 6 p1
+#Iterar a traves de la lista python 
+print("Ejercicio 6 p1")
+lista = ['Python', 'Numpy', 'Pandas', 'Django', 'Flask']
+for item in lista:
+    print(item)
+
+#Ejercicio 7 p1 
+#Usa el bucle for para iterar de 0 a 100 e imprime solo numeros extraños
+print("Ejercicio 7 p1")
+for f in range (101):
+    if (f % 2==0 ):
+        print(f) 
+
+#Ejercicio 8 p1
+#Utiliza el bucle for para iterar de 0 a 100 e imprime la suma de todos los numeros
+print("Ejercicio 8 p1 ")
+for p in range(100):
+    if (p % 2 == 0):
+        p = p + 1
+        print(p)
