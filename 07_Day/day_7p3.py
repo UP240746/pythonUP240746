@@ -35,3 +35,4 @@ palabras= fraces.split()
 palabrasUnicas = set(palabras)
 print("Palabras únicas:" , len(palabrasUnicas), palabrasUnicas)
                                                                     
+print("revisado")

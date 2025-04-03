@@ -48,3 +48,4 @@ print(diferencia_simetrica)
 del A 
 del B 
 print("Los sets han sido eliminados.")
+print("revisado")
