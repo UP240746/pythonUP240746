@@ -43,3 +43,5 @@ elif a < b:
     print(a , "es menor que" , b)
 else:
     print(a , "es igual a" , b) 
+
+print("revisado")

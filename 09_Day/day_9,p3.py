@@ -47,3 +47,5 @@ if "skills" in person:
 print("Parte 4, ejercicio 1 ")
 if person["isMarred"] and person["country"] == "Finland":
     print(person['firstName'] , person['lastName'] , "está casado y vive en Finlandia")
+
+print("revisado")
