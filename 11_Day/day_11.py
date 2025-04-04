@@ -120,15 +120,54 @@ print("Lista en mayusculas: ", mayusculasLista(marcasCarros))
 #Toma como parametro una lista y un lemento, devuelve la lista con el añadido final
 print("Ejeficio 11 p1 ")
 def añade_item (lista, item): 
-    lista.appened(item)
+    lista.append(item)
     return lista 
 print("La lista es: ",añade_item(marcasCarros, "Mercedes Benz"))
 
 #Ejercicio 12 p1
 #Declara una funcion llamada remove_item 
-#Toma una lista y un elemento 
+#Toma una lista y un elemento, devuelve  a la lista con el elemento 
+print("Ejercico 12 p1")
+def removeItem(lista, item):
+    lista.remove(item)
+    return lista 
+print("La lista es: ", removeItem(marcasCarros,"BMW"))
 
+#Ejercicio 13 p1 
+#Declara la funcion sumaNumeros 
+#Toma un parametro numerico y suma tdoos los numeros imares de ese rango 
+print("Ejercicio 13, p1 ")
+def sumaNumeros(numero):
+    suma=0 
+    for i in range(1 , numero +1 ):
+        suma = suma +i
+        return suma 
+print("Suma de los numeros rango 10:", sumaNumeros(10))
+        
+#Ejercicio 14 
+#Declara una funcion llamada sumaExtraños 
+#Toma un parametro numero y suma todos los numeros impares debese rango 
+print("Ejercicio 14 p1")
+def suma_de_impares(n):
+    suma = 0
+    for i in range(1, n + 1):
+        if i % 2 != 0:
+            suma += i
+    return suma
+n = 10
+resultado = suma_de_impares(n)
+print("La suma de todos los números impares es: ", suma_de_impares)
 
-
+#Ejercicio 15 p1 
+#Toma un parametro numerico y suma todos los pares en ese rango 
+print("Ejercicio 15 p1 ")
+def suma_de_pares(n):
+    suma = 0
+    for i in range(2, n + 1, 2):
+        suma += i
+    return suma
+n = 10
+resultado = suma_de_pares(n)
+print("La suma de todos los numeros pares es : ", suma_de_impares)
 
     
