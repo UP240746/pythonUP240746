@@ -84,3 +84,6 @@ print("Moda:", modo)
 print("Rango:", range_value)
 print("Varianza:", varianza)
 print("Desviación estándar:", std_dev)
+
+
+print("revisado")

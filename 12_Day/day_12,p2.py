@@ -42,3 +42,5 @@ def generate_colors(num_colors, color_type):
     return colors
 print("La generada colors es:", generate_colors(5, 'hexa'))
 print("La generada colors es:", generate_colors(5, 'rgb'))
+
+print("revisado")

@@ -22,3 +22,5 @@ for n in range(100):
         extraños = extraños + n 
 print("La suma de todos los pares es de: ", eventos)
 print("La suma de todos los extraños es: ", extraños)
+
+print("revisado")

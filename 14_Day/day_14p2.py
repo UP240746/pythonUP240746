@@ -130,3 +130,5 @@ print("Ejercicio 15 p2")
 def getLastTenCountries(lst):
     return lst[-10:]
 print("Los últimos 10 países de la lista son:" , list(getLastTenCountries(countries2)))
+
+print("revisado")

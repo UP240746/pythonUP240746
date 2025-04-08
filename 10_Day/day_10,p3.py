@@ -64,3 +64,6 @@ print("Los 10 países más poblados son:")
 for i in range(min(10, len(sortedCountries))):
     country, population = sortedCountries[i]
     print(f"{country}: {population}")
+
+
+print("revisado")

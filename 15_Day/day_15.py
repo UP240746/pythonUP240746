@@ -77,3 +77,5 @@ print(int("7"))
 print("Ejemplo 10: ZeroDivisionError")
 # print(9 / 0)     # Error: No se puede dividir por 0.
 print(9 / 1)
+
+print("revisado")
